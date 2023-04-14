@@ -4,14 +4,15 @@ import openai
 import speech_recognition as sr
 
 # Set up Amazon Polly credentials
+# fill it with your own credentials
 polly_client = boto3.Session(
-   aws_access_key_id="AKIAWRXPYOZF5XXZCZNB",
-    aws_secret_access_key="l4b8eMoTe1mzEgXgllmSqKiVO9FSlZM5NBzddcbG",
+   aws_access_key_id="AKIAZ7Z7Z7Z7Z7Z7Z7Z7",
+    aws_secret_access_key="secret_access_key",
     region_name="us-east-1"
 ).client('polly')
 
 # Set up OpenAI credentials
-openai.api_key = "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"
+openai.api_key = "openai_api_key"
 
 # Define function to generate speech using Amazon Polly
 def generate_speech(text, voice_id):
