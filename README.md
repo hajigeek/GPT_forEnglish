@@ -5,6 +5,7 @@ This is a voice assistant designed to help people learn English faster. It is bu
 (bug)Converts speech to text using SpeechRecognition
 Generates response using OpenAI GPT-3.5 API
 Synthesizes response into speech using Amazon Polly
+![image](https://user-images.githubusercontent.com/63127596/232167173-534dead4-d097-403a-89ab-9f5279da4615.png)
 
 ## Installation
 Clone the repository: git clone https://github.com/your-username/voice-assistant-for-english-learning.git
