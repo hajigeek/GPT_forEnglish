@@ -1,2 +1,4 @@
 streamlit
 openai
+speech_recognition
+boto3
